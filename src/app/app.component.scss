@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 @import 'variables.scss';
 
+
 html, body {
     margin: 0;
     padding: 0;
@@ -12,3 +13,13 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box; // Evitar que os componentes sejam esticados pelo padding
 }
+
+.flex {
+    display: flex;
+
+    &-center {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
